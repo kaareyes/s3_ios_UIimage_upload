@@ -75,7 +75,7 @@
  Returns a request with the necessary AWS authorization HTTP header fields from the specified request using the provided credentials.
 
  @param request The request.
- @param error The error that occured while constructing the request.
+ @param error The error that occurred while constructing the request.
 
  @return The request with necessary `Authorization` and `Date` HTTP header fields.
  */
@@ -87,7 +87,7 @@
 
  @param request The request. `HTTPMethod` must be `GET`.
  @param expiration The request expiration. If `nil`, defaults to 1 hour from when method is called.
- @param error The error that occured while constructing the request.
+ @param error The error that occurred while constructing the request.
 
  @return The request with credentials signed in query string.
  */
